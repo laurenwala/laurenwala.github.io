@@ -1,8 +1,9 @@
 /*CSS DOCUMENT*/
+
 h1{
     color: rgb(75,0,130);
     font-size: 3em;
-    margin:1em, 1em, 1em, 2em;
+    margin: .5em 1em .5em 0em;
 }
 
 h2{
@@ -17,10 +18,19 @@ h3{
 
 h4{
     color:rgb(75,0,130);
+    margin:.25em 0em .25em 0em;
+}
+
+p{
+    margin:.25em 0em .25em 0em;
+}
+
+li{
+    margin:.1em 0em 1em 0em;
 }
 
 .price{
-    color:rgb(0,139,139);
+    color:rgb(165,42,42);
 }
 
 ul{
