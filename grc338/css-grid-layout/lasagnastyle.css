@@ -96,33 +96,33 @@ div.container {
 
 
 header {  
-    padding-top: ______;;  
+    padding-top: 5em;  
 }  
 
 
 figure {  
-    display: ______;  
-    grid-template-columns: ______;  
-    column-gap: ______;  
+    display: grid;  
+    grid-template-columns: 80% 20%;  
+    column-gap: 0em;  
 }  
 
 
 main {  
     display: grid;  
-    grid-template-columns: ______;  
-    column-gap: ______;  
-    padding: ______;  
+    grid-template-columns: 50% 50%;  
+    column-gap: 0em;  
+    padding: .5em;  
 }  
 
 
 figcaption {  
-    padding-top: ______;  
+    padding-top: 2em;  
 }  
 
 
 h3 {  
-    border-top: ______;  
-    padding-top: ______;  
+    border-top: .15em solid orange;  
+    padding-top: 1em;  
 }
 
 
