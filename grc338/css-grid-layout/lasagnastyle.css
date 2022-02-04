@@ -102,14 +102,14 @@ header {
 
 figure {  
     display: grid;  
-    grid-template-columns: 80% 20%;  
+    grid-template-columns: 4fr 1fr;  
     column-gap: 0em;  
 }  
 
 
 main {  
     display: grid;  
-    grid-template-columns: 50% 50%;  
+    grid-template-columns: 1fr 1fr;  
     column-gap: .5em;  
     padding: 1.5em 4em 1.5em 1.5em;  
 }  
