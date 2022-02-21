@@ -59,7 +59,7 @@ p.price{
 h1{
     font-family: sans-serif;
     color: rgb(218,165,32); 
-    margin: 0em 0em 0em .4em;
+    margin: 0em 0em .5em .4em;
     font-family: latinaires, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -82,7 +82,8 @@ h3{
 
 p{
     font-family: sans-serif;
-    line-height: 1.5;
+    line-height: 2em;
+    padding: .8em;
 }
 
 h2.yellow{
