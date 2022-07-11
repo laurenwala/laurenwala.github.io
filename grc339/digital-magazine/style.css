@@ -1,0 +1,82 @@
+/*CSS document*/
+
+body {
+
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul {
+    padding:0em 1em 1em 1em;
+
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 2em;
+    font-family: blakely, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+}
+
+nav ul li a:hover {
+    color: rgb(79, 124, 172);
+}
+
+nav ul li a{
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+p {
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 25px;
+}
+
+figcaption{
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 13px;
+    color: rgb(120, 120, 120);
+
+}
+
+h3{
+    font-family: blakely, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2{
+    font-family: blakely, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    color: rgb(79, 124, 172);
+}
+
+a{
+    text-decoration: none;
+}
