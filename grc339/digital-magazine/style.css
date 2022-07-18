@@ -177,7 +177,7 @@ section.mainstory p {
     
 }
 
-secdtion.mainstory figure div{
+section.mainstory figure div{
     flex: 1 0 18em;
     background-image:url(reusable_mainstory.jpg);
     background-repeat: no-repeat;
@@ -185,4 +185,114 @@ secdtion.mainstory figure div{
     background-position: center;
     
 }
+}
+
+section.newsletter{
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 25px; 
+    margin:1em 0em 0em 1em;
+}
+section.newsletter ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+}
+section.newsletter ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+	flex: 4 0 24em;
+	box-sizing: border-box;
+}
+section.newsletter ul li label {
+	flex: 0 0 10em;
+}
+
+section.newsletter h3{
+    margin: 1em 0em 0em 0em;
+}
+
+section.newsletter button{
+    margin:1em 0em 0em .3em;
+}
+
+h2.newsletter{
+    font-family: blakely, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    color: rgb(79, 124, 172);
+    margin:1em 0em 0em .3em;
+}
+
+
+body.photo {
+    font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+img.photo {
+	width: 100%;
+}
+
+
+main.photo {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: calc(72% + 3em);
+}
+
+figure.photo {
+    margin: 0;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+figure.photo figcaption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1em 0;
+    color: #888;
+}
+
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8)
+
+
+{
+    
+    opacity: 1;
+}
+
+input.photo {
+    display: none;
+}
+
+nav.photo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .2em;
+}
+
+div.photo {
+    background-color: #fafafa;
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 1em;
 }
