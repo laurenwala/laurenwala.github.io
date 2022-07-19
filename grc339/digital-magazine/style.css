@@ -291,8 +291,7 @@ nav.photo {
 }
 
 div.photo {
-    background-color: #fafafa;
-    max-width: 60em;
+    max-width: 80em;
     margin: 0 auto;
     padding: 1em;
 }
